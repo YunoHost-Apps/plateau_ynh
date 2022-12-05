@@ -19,7 +19,7 @@
     "license": "free",
     "maintainer": {
         "name": "Guillaume Bouzige",
-        "email": "guillaume.bouzige@ddataa.org"
+        "email": "guillaume.bouzige+yunohost@ddataa.org"
     },
     "requirements": {
         "yunohost": ">= 11.0.0"
