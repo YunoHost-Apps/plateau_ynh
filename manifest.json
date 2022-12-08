@@ -9,14 +9,14 @@
     "version": "1.0~ynh1",
     "url": "https://plateau.latelier-des-chercheurs.fr/",
     "upstream": {
-        "license": "free",
+        "license": "AGPL-3.0-or-later",
         "website": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
         "demo": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
         "admindoc": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
         "userdoc": "https://github.com/YunoHost-Apps/plateau_ynh",
         "code": "https://github.com/l-atelier-des-chercheurs/PLATEAU"
     },
-    "license": "free",
+    "license": "AGPL-3.0-or-later",
     "maintainer": {
         "name": "Guillaume Bouzige",
         "email": "guillaume.bouzige+yunohost@ddataa.org"
