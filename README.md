@@ -15,7 +15,11 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Plateau helps designers organize and document participatory workshops. With Plateau one can: 
+
+(1) Plan a workshop structure and prepare the resources they will need. 
+(2) Run workshops accordingly, documenting what happens through notes, photos, video or audio recording, as the workshops unfold. 
+(3) Revisit the materials captured, enrich them, archive them or publish them.
 
 ### Features
 
@@ -36,24 +40,19 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 
 ## Disclaimers / important information
 
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
+Plateau helps designers organize and document participatory workshops. With Plateau one can: 
 
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
+(1) Plan a workshop structure and prepare the resources they will need. 
+(2) Run workshops accordingly, documenting what happens through notes, photos, video or audio recording, as the workshops unfold. 
+(3) Revisit the materials captured, enrich them, archive them or publish them.
+
+no SSO
 
 ## Documentation and resources
 
 * Official app website: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
-* Official user documentation: <https://yunohost.org/plateau>
-* Official admin documentation: <https://yunohost.org/packaging_apps>
+* Official user documentation: <https://github.com/YunoHost-Apps/plateau_ynh>
+* Official admin documentation: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
 * Upstream app code repository: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
 * YunoHost documentation for this app: <https://yunohost.org/app_plateau>
 * Report a bug: <https://github.com/YunoHost-Apps/plateau_ynh/issues>
