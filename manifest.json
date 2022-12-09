@@ -3,28 +3,28 @@
     "id": "plateau",
     "packaging_format": 1,
     "description": {
-        "en": "Plateau is a collaborative workshop documentation and organization platform",
-        "fr": "Plateau est un outil de documentation et d'organisation d'ateliers collaboratifs"
+        "en": "Plateau helps designers organize and document participatory workshops.",
+        "fr": "Plateau aide les designers a organiser et documenter des ateliers participatifs."
     },
     "version": "1.0~ynh1",
-    "url": "https://github.com/Ddataa/plateau_ynh",
+    "url": "https://plateau.latelier-des-chercheurs.fr/",
     "upstream": {
-        "license": "free",
+        "license": "AGPL-3.0-or-later",
         "website": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
         "demo": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
-        "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/plateau",
+        "admindoc": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
+        "userdoc": "https://github.com/YunoHost-Apps/plateau_ynh",
         "code": "https://github.com/l-atelier-des-chercheurs/PLATEAU"
     },
-    "license": "free",
+    "license": "AGPL-3.0-or-later",
     "maintainer": {
         "name": "Guillaume Bouzige",
-        "email": "guillaume.bouzige@ddataa.org"
+        "email": "guillaume.bouzige+yunohost@ddataa.org"
     },
     "requirements": {
         "yunohost": ">= 11.0.0"
     },
-    "multi_instance": true,
+    "multi_instance": false,
     "services": [
         "nginx"
     ],
