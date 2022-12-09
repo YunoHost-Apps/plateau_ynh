@@ -124,6 +124,9 @@ ynh_script_progression --message="Installing Plateau..." --weight=3
 cd $final_path
 ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
 
+#=================================================
+# ADD CONFIG PLATEAU
+#=================================================
 ynh_add_config --template="../conf/settings_base.json" --destination="$final_path/settings_base.json"
 
 #=================================================
