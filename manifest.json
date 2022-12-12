@@ -3,8 +3,8 @@
     "id": "plateau",
     "packaging_format": 1,
     "description": {
-        "en": "Plateau helps designers organize and document participatory workshops.",
-        "fr": "Plateau aide les designers a organiser et documenter des ateliers participatifs."
+        "en": "Documentation tool for projects and workshops",
+        "fr": "Outil de documentation pour les projets et workshops participatifs"
     },
     "version": "1.0~ynh1",
     "url": "https://plateau.latelier-des-chercheurs.fr/",
