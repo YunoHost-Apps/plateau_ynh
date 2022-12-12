@@ -128,15 +128,6 @@ chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
-ynh_script_progression --message="Finding an available port..."
-
-#=================================================
-# FIND AND OPEN A PORT
-#=================================================
-# Find an available port
-port=$(ynh_find_port --port=8080)
-ynh_app_setting_set --app=$app --key=port --value=$port
-
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
