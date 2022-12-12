@@ -163,6 +163,7 @@ ynh_script_progression --message="Updating a configuration file..."
 ###
 ### The file will automatically be backed-up if it's found to be manually modified (because
 ### ynh_add_config keeps track of the file's checksum)
+ynh_secure_remove --file="$final_path/settings_base.json"
 ynh_add_config --template="../conf/settings_base.json" --destination="$final_path/settings_base.json"
 
 
