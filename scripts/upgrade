@@ -18,10 +18,7 @@ app=$YNH_APP_INSTANCE_NAME
 
 domain=$(ynh_app_setting_get --app=$app --key=domain)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
-language=$(ynh_app_setting_get --app=$app --key=language)
-admin=$(ynh_app_setting_get --app=$app --key=admin)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
-db_name=$(ynh_app_setting_get --app=$app --key=db_name)
 
 #=================================================
 # CHECK VERSION
@@ -130,15 +127,6 @@ fi
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
-
-ynh_script_progression --message="Finding an available port..."
-
-#=================================================
-# FIND AND OPEN A PORT
-#================================================= 
-# Find an available port
-port=$(ynh_find_port --port=8080)
-ynh_app_setting_set --app=$app --key=port --value=$port
 
 #=================================================
 # NGINX CONFIGURATION
