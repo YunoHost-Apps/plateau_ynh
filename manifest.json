@@ -6,8 +6,8 @@
         "en": "Helps designers organize and document participatory workshops.",
         "fr": "Aide les designers a organiser et documenter des ateliers participatifs."
     },
-    "version": "1.0~ynh1",
-    "url": "https://plateau.latelier-des-chercheurs.fr/",
+    "version": "1.2.1~ynh1",
+    "url": "https://github.com/Ddataa/plateau_ynh",
     "upstream": {
         "license": "AGPL-3.0-or-later",
         "website": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
