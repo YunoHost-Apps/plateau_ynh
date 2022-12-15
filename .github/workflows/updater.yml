@@ -24,7 +24,9 @@ jobs:
           git config --global user.name 'yunohost-bot'
           git config --global user.email 'yunohost-bot@users.noreply.github.com'
           # Run the updater script
-          /usr/bin/bash /home/runner/work/plateau_ynh/plateau_ynh/.github/workflows/updater.sh
+          #/usr/bin/bash /home/runner/work/plateau_ynh/plateau_ynh/.github/workflows/updater.sh
+          pwd
+          ls -al
       - name: Commit changes
         id: commit
         if: ${{ env.PROCEED == 'true' }}
