@@ -44,6 +44,13 @@ test ! -d $final_path \
 #=================================================
 # STANDARD RESTORATION STEPS
 #=================================================
+# RESTORE THE NGINX CONFIGURATION
+#=================================================
+ynh_script_progression --message="Restoring the NGINX web server configuration..."
+
+ynh_restore_file --origin_path="/etc/nginx/conf.d/$domain.d/$app.conf"
+
+#=================================================
 # RECREATE THE DEDICATED USER
 #=================================================
 ynh_script_progression --message="Recreating the dedicated system user..."
@@ -90,13 +97,14 @@ chown -R $app:www-data "$datadir"
 #=================================================
 # SPECIFIC RESTORATION
 #=================================================
-
 #=================================================
-# RESTORE THE NGINX CONFIGURATION
+# REINSTALL DEPENDENCIES
 #=================================================
-ynh_script_progression --message="Restoring the NGINX web server configuration..."
+ynh_script_progression --message="Reinstalling dependencies..." --weight=7
 
-ynh_restore_file --origin_path="/etc/nginx/conf.d/$domain.d/$app.conf"
+# Define and install dependencies
+ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
+ynh_use_nodejs
 
 #=================================================
 # RESTORE VARIOUS FILES
@@ -104,6 +112,7 @@ ynh_restore_file --origin_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 ynh_script_progression --message="Restoring various files..."
 
 ynh_add_config --template="../conf/settings_base.json" --destination="$final_path/settings_base.json"
+chmod 600 "$final_path/settings_base.json"
 
 #=================================================
 # RESTORE SYSTEMD
