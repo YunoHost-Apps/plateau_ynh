@@ -7,7 +7,7 @@
         "fr": "Aide les designers a organiser et documenter des ateliers participatifs."
     },
     "version": "2.0.0b~ynh1",
-    "url": "https://plateau.latelier-des-chercheurs.fr/",
+    "url": "https://github.com/Ddataa/plateau_ynh",
     "upstream": {
         "license": "AGPL-3.0-or-later",
         "website": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
