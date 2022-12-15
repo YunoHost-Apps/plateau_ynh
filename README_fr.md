@@ -30,7 +30,7 @@ Plateau helps designers organize and document participatory workshops. With Plat
 - Excepteur sint occaecat cupidatat non proident, sunt in culpa."
 
 
-**Version incluse :** 1.0~ynh1
+**Version incluse :** 2.0.0b~ynh1
 
 **Démo :** https://github.com/l-atelier-des-chercheurs/PLATEAU
 
