@@ -134,6 +134,22 @@ ynh_add_nginx_config
 #=================================================
 
 #=================================================
+# UPGRADE DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Upgrading dependencies..."
+
+# Define and install dependencies
+ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
+ynh_use_nodejs
+
+#=================================================
+# INSTALL PLATEAU
+#=================================================
+ynh_script_progression --message="Installing Plateau..." --weight=3
+cd $final_path
+ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
+
+#=================================================
 # UPDATE A CONFIG FILE
 #=================================================
 ynh_script_progression --message="Updating a configuration file..."
