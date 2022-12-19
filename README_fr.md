@@ -32,7 +32,7 @@ Plateau helps designers organize and document participatory workshops. With Plat
 
 **Version incluse :** 2.0.0b~ynh1
 
-**Démo :** https://github.com/l-atelier-des-chercheurs/PLATEAU
+**Démo :** https://plateau.latelier-des-chercheurs.fr
 
 ## Captures d'écran
 
@@ -50,7 +50,7 @@ no SSO
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
+* Site officiel de l'app : <https://latelier-des-chercheurs.fr>
 * Documentation officielle utilisateur : <https://github.com/YunoHost-Apps/plateau_ynh>
 * Documentation officielle de l'admin : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
 * Dépôt de code officiel de l'app : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
