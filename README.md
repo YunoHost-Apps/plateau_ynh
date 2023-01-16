@@ -22,7 +22,7 @@ Plateau helps designers organize and document participatory workshops. With Plat
 (3) Revisit the materials captured, enrich them, archive them or publish them.
 
 
-**Shipped version:** 2.0.0b~ynh1
+**Shipped version:** 2.0.0b~ynh2
 
 **Demo:** https://plateau.latelier-des-chercheurs.fr
 ## Disclaimers / important information
