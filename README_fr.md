@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Plateau pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)  
 [![Installer Plateau avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Plateau rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Plateau rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Plateau helps designers organize and document participatory workshops. With Plateau one can: 
 
@@ -31,10 +31,10 @@ no SSO
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://latelier-des-chercheurs.fr>
+* Site officiel de l’app : <https://latelier-des-chercheurs.fr>
 * Documentation officielle utilisateur : <https://github.com/YunoHost-Apps/plateau_ynh>
-* Documentation officielle de l'admin : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
-* Dépôt de code officiel de l'app : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
+* Documentation officielle de l’admin : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
+* Dépôt de code officiel de l’app : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_plateau>
 * Signaler un bug : <https://github.com/YunoHost-Apps/plateau_ynh/issues>
 
@@ -50,4 +50,4 @@ ou
 sudo yunohost app upgrade plateau -u https://github.com/YunoHost-Apps/plateau_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
