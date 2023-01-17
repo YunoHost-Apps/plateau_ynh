@@ -3,10 +3,10 @@
     "id": "plateau",
     "packaging_format": 1,
     "description": {
-        "en": "Helps designers organize and document participatory workshops.",
-        "fr": "Aide les designers a organiser et documenter des ateliers participatifs."
+        "en": "Helps designers organize and document participatory workshops",
+        "fr": "Aide les designers a organiser et documenter des ateliers participatifs"
     },
-    "version": "2.0.0b~ynh1",
+    "version": "2.0.0b~ynh2",
     "url": "https://plateau.latelier-des-chercheurs.fr/",
     "upstream": {
         "license": "AGPL-3.0-or-later",
