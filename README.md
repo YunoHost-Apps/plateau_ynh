@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Plateau for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![Working status](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![Working status](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+
 [![Install Plateau with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -32,8 +33,6 @@ no SSO
 ## Documentation and resources
 
 * Official app website: <https://latelier-des-chercheurs.fr>
-* Official user documentation: <https://github.com/YunoHost-Apps/plateau_ynh>
-* Official admin documentation: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
 * Upstream app code repository: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
 * YunoHost documentation for this app: <https://yunohost.org/app_plateau>
 * Report a bug: <https://github.com/YunoHost-Apps/plateau_ynh/issues>
