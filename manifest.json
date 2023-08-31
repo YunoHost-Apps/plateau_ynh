@@ -12,8 +12,6 @@
         "license": "AGPL-3.0-or-later",
         "website": "https://latelier-des-chercheurs.fr",
         "demo": "https://plateau.latelier-des-chercheurs.fr",
-        "admindoc": "https://github.com/l-atelier-des-chercheurs/PLATEAU",
-        "userdoc": "https://github.com/YunoHost-Apps/plateau_ynh",
         "code": "https://github.com/l-atelier-des-chercheurs/PLATEAU"
     },
     "license": "AGPL-3.0-or-later",
