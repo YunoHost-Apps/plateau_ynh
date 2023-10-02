@@ -26,10 +26,6 @@ Plateau helps designers organize and document participatory workshops. With Plat
 **Shipped version:** 2.0.0b~ynh2
 
 **Demo:** https://plateau.latelier-des-chercheurs.fr
-## Disclaimers / important information
-
-no SSO
-
 ## Documentation and resources
 
 * Official app website: <https://latelier-des-chercheurs.fr>
