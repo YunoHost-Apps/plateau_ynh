@@ -34,7 +34,6 @@ no SSO
 
 * Official app website: <https://latelier-des-chercheurs.fr>
 * Upstream app code repository: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
-* YunoHost documentation for this app: <https://yunohost.org/app_plateau>
 * Report a bug: <https://github.com/YunoHost-Apps/plateau_ynh/issues>
 
 ## Developer info
