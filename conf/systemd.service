@@ -8,8 +8,8 @@ User=__APP__
 Group=__APP__
 Environment="NODE_ENV=production"
 Environment="__YNH_NODE_LOAD_PATH__"
-WorkingDirectory=__FINALPATH__
-ExecStart=__YNH_NODE__ __FINALPATH__/index.js
+WorkingDirectory=__INSTALL_DIR__
+ExecStart=__YNH_NODE__ __INSTALL_DIR__/index.js
 Restart=always
 
 # Sandboxing options to harden security
