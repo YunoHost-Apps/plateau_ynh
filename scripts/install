@@ -44,16 +44,6 @@ ynh_use_logrotate
 yunohost service add $app --description="Organize and document participatory workshops" --log="/var/log/$app/$app.log"
 
 #=================================================
-# INSTALL PLATEAU
-#=================================================
-ynh_script_progression --message="Installing $app..." --weight=3
-
-pushd $install_dir
- 	ynh_use_nodejs
-	ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
-popd
-
-#=================================================
 # ADD CONFIG PLATEAU
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
@@ -62,6 +52,16 @@ ynh_add_config --template="../conf/settings_base.json" --destination="$install_d
 
 chmod 400 "$install_dir/settings_base.json"
 chown $app:$app "$install_dir/settings_base.json"
+
+#=================================================
+# INSTALL PLATEAU
+#=================================================
+ynh_script_progression --message="Installing $app..." --weight=3
+
+pushd $install_dir
+ 	ynh_use_nodejs
+	ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
+popd
 
 #=================================================
 # START SYSTEMD SERVICE
