@@ -1,0 +1,55 @@
+packaging_format = 2
+
+id = "plateau"
+name = "Plateau"
+description.en = "Organize and document participatory workshops"
+description.fr = "Organiser et documenter des ateliers participatifs"
+
+version = "2.0.0b~ynh2"
+
+maintainers = ["Guillaume Bouzige"]
+
+[upstream]
+license = "AGPL-3.0-or-later"
+website = "https://latelier-des-chercheurs.fr"
+demo = "https://plateau.latelier-des-chercheurs.fr"
+code = "https://github.com/l-atelier-des-chercheurs/PLATEAU"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = false
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/plateau"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/tags/v2.0.0b.tar.gz"
+        sha256 = "56ea654ce68a58c124c314753724eaa27606f8e99cc4ed0de546499fd241c912"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.ports]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"

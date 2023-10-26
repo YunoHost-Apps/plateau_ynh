@@ -16,25 +16,22 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Plateau helps designers organize and document participatory workshops. With Plateau one can: 
+Plateau helps designers organize and document participatory workshops.
 
-(1) Plan a workshop structure and prepare the resources they will need. 
-(2) Run workshops accordingly, documenting what happens through notes, photos, video or audio recording, as the workshops unfold. 
-(3) Revisit the materials captured, enrich them, archive them or publish them.
+### Features
+
+- Plan a workshop structure and prepare the resources they will need. 
+- Run workshops accordingly, documenting what happens through notes, photos, video or audio recording, as the workshops unfold. 
+- Revisit the materials captured, enrich them, archive them or publish them.
 
 
 **Shipped version:** 2.0.0b~ynh2
 
 **Demo:** https://plateau.latelier-des-chercheurs.fr
-## Disclaimers / important information
-
-no SSO
-
 ## Documentation and resources
 
 * Official app website: <https://latelier-des-chercheurs.fr>
 * Upstream app code repository: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
-* YunoHost documentation for this app: <https://yunohost.org/app_plateau>
 * Report a bug: <https://github.com/YunoHost-Apps/plateau_ynh/issues>
 
 ## Developer info
