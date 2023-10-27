@@ -39,8 +39,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/tags/v2.0.0b.tar.gz"
-        sha256 = "56ea654ce68a58c124c314753724eaa27606f8e99cc4ed0de546499fd241c912"
+        url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/tags/v2.0.0.tar.gz"
+        sha256 = "8573599860b81a3d6a4f8ea2d6b2b4385d8a6104d27c3e8ceef7d922780d77ca"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
