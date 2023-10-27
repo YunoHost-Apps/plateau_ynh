@@ -31,6 +31,7 @@ Plateau aide les designers à organiser et à documenter des ateliers participat
 
 * Site officiel de l’app : <https://latelier-des-chercheurs.fr>
 * Dépôt de code officiel de l’app : <https://github.com/l-atelier-des-chercheurs/PLATEAU>
+* YunoHost Store: <https://apps.yunohost.org/app/plateau>
 * Signaler un bug : <https://github.com/YunoHost-Apps/plateau_ynh/issues>
 
 ## Informations pour les développeurs

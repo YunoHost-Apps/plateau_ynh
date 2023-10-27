@@ -32,6 +32,7 @@ Plateau helps designers organize and document participatory workshops.
 
 * Official app website: <https://latelier-des-chercheurs.fr>
 * Upstream app code repository: <https://github.com/l-atelier-des-chercheurs/PLATEAU>
+* YunoHost Store: <https://apps.yunohost.org/app/plateau>
 * Report a bug: <https://github.com/YunoHost-Apps/plateau_ynh/issues>
 
 ## Developer info
