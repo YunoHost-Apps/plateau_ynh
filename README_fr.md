@@ -24,7 +24,7 @@ Plateau aide les designers à organiser et à documenter des ateliers participat
 - Organisez les ateliers en conséquence, en documentant ce qui se passe au moyen de notes, de photos, d'enregistrements vidéo ou audio, au fur et à mesure du déroulement des ateliers.
 - Revisitez les matériaux capturés, enrichissez-les, archivez-les ou publiez-les.
 
-**Version incluse :** 2.0.0b~ynh2
+**Version incluse :** 2.0.0b~ynh3
 
 **Démo :** <https://plateau.latelier-des-chercheurs.fr>
 ## Documentations et ressources

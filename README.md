@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Plateau with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Plateau quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -25,7 +25,7 @@ Plateau helps designers organize and document participatory workshops.
 - Revisit the materials captured, enrich them, archive them or publish them.
 
 
-**Shipped version:** 2.0.0b~ynh2
+**Shipped version:** 2.0.0b~ynh3
 
 **Demo:** <https://plateau.latelier-des-chercheurs.fr>
 ## Documentation and resources
