@@ -5,7 +5,7 @@ name = "Plateau"
 description.en = "Organize and document participatory workshops"
 description.fr = "Organiser et documenter des ateliers participatifs"
 
-version = "2.0.0b~ynh2"
+version = "2.0.0b~ynh3"
 
 maintainers = ["Guillaume Bouzige"]
 
