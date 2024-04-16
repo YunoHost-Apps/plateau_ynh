@@ -25,7 +25,7 @@ Plateau helps designers organize and document participatory workshops.
 - Revisit the materials captured, enrich them, archive them or publish them.
 
 
-**Versión proporcionada:** 2.0.0b~ynh2
+**Versión proporcionada:** 2.0.0b~ynh3
 
 **Demo:** <https://plateau.latelier-des-chercheurs.fr>
 ## Documentación e recursos
