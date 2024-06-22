@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Plateau
+# YunoHost 上的 Plateau
 
 [![集成程度](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![工作状态](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
 
