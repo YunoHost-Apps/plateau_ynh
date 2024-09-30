@@ -36,9 +36,12 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/tags/v2.0.0.tar.gz"
-        sha256 = "8573599860b81a3d6a4f8ea2d6b2b4385d8a6104d27c3e8ceef7d922780d77ca"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/heads/develop-node.zip"
+        sha256 = "533ab9f5cceac2358ad03104ff3d8f8f24e2a7beb296192281b9ff1a3dd2681b"
+        
+        #url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/tags/v2.0.0.tar.gz"
+        #sha256 = "8573599860b81a3d6a4f8ea2d6b2b4385d8a6104d27c3e8ceef7d922780d77ca"
+        #autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
