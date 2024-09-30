@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Plateau para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
 
 [![Instalar Plateau con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
@@ -25,7 +25,7 @@ Plateau helps designers organize and document participatory workshops.
 - Revisit the materials captured, enrich them, archive them or publish them.
 
 
-**Versión actual:** 2.0.0b~ynh3
+**Versión actual:** 2.0.0b~ynh4
 
 **Demo:** <https://plateau.latelier-des-chercheurs.fr>
 ## Documentaciones y recursos
@@ -37,7 +37,7 @@ Plateau helps designers organize and document participatory workshops.
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/plateau_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/plateau_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
