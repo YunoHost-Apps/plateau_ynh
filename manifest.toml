@@ -54,3 +54,7 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.apt]
+    packages = "build-essential"
+    
