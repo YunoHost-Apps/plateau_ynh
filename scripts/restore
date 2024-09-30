@@ -34,15 +34,6 @@ ynh_restore "/etc/logrotate.d/$app"
 yunohost service add $app --description="Organize and document participatory workshops" --log="/var/log/$app/$app.log"
 
 #=================================================
-# RESTORE VARIOUS FILES
-#=================================================
-ynh_script_progression "Restoring various files..."
-
-ynh_config_add --template="settings_base.json" --destination="$install_dir/settings_base.json"
-
-chmod 600 "$install_dir/settings_base.json"
-
-#=================================================
 # RELOAD NGINX AND PHP-FPM OR THE APP SERVICE
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."

@@ -22,9 +22,9 @@ ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="settings_base.
 #=================================================
 ynh_script_progression "Updating $app's configuration files..."
 
-ynh_config_add --template="settings_base.json" --destination="$install_dir/settings_base.json"
+ynh_config_add --template="settings_example.json" --destination="$install_dir/settings.json"
 
-chmod 600 "$install_dir/settings_base.json"
+chmod 600 "$install_dir/settings.json"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
