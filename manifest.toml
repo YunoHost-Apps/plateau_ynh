@@ -5,7 +5,7 @@ name = "Plateau"
 description.en = "Organize and document participatory workshops"
 description.fr = "Organiser et documenter des ateliers participatifs"
 
-version = "2.0.0b~ynh3"
+version = "2.0.0b~ynh4"
 
 maintainers = ["Guillaume Bouzige"]
 
@@ -16,7 +16,8 @@ demo = "https://plateau.latelier-des-chercheurs.fr"
 code = "https://github.com/l-atelier-des-chercheurs/PLATEAU"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
 ldap = false
@@ -28,10 +29,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-
-    [install.path]
-    type = "path"
-    default = "/plateau"
 
     [install.init_main_permission]
     type = "group"
@@ -53,3 +50,7 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.apt]
+    packages = "build-essential"
+    
