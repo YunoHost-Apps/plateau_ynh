@@ -37,8 +37,6 @@ ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="settings_example.json" --destination="$install_dir/settings.json"
 
-chmod 600 "$install_dir/settings.json"
-
 #=================================================
 # INSTALL PLATEAU
 #=================================================
