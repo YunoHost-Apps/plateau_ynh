@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Plateau
 
-[![集成程度](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![工作状态](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
 
 [![使用 YunoHost 安装 Plateau](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
@@ -25,7 +25,7 @@ Plateau helps designers organize and document participatory workshops.
 - Revisit the materials captured, enrich them, archive them or publish them.
 
 
-**分发版本：** 2.0.0b~ynh3
+**分发版本：** 2.0.0b~ynh4
 
 **演示：** <https://plateau.latelier-des-chercheurs.fr>
 ## 文档与资源
