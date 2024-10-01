@@ -8,6 +8,6 @@
   "api": {
     "enabled": false,
     "allow_all_domains": false,
-    "domains_whitelist": ["https://__DOMAIN__"]
+    "domains_whitelist": ["127.0.0.1"]
   }
 }

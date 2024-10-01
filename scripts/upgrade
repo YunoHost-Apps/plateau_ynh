@@ -31,8 +31,6 @@ ynh_script_progression "Updating $app's configuration files..."
 
 ynh_config_add --template="settings_example.json" --destination="$install_dir/settings.json"
 
-chmod 600 "$install_dir/settings.json"
-
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
@@ -40,11 +38,7 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 
 ynh_config_add_nginx
 
-ynh_nodejs_install
-
 ynh_config_add_systemd
-
-ynh_config_add_logrotate
 
 yunohost service add $app --description="Organize and document participatory workshops" --log="/var/log/$app/$app.log"
 
