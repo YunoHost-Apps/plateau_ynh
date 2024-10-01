@@ -32,6 +32,15 @@ ynh_script_progression "Updating $app's configuration files..."
 ynh_config_add --template="settings_example.json" --destination="$install_dir/settings.json"
 
 #=================================================
+# INSTALL PLATEAU
+#=================================================
+ynh_script_progression "Installing $app..."
+
+pushd $install_dir
+	ynh_hide_warnings ynh_exec_as_app npm install
+popd
+
+#=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
@@ -43,20 +52,11 @@ ynh_config_add_systemd
 yunohost service add $app --description="Organize and document participatory workshops" --log="/var/log/$app/$app.log"
 
 #=================================================
-# INSTALL PLATEAU
-#=================================================
-ynh_script_progression "Installing $app..."
-
-pushd $install_dir
-	ynh_hide_warnings ynh_exec_as_app npm install
-popd
-
-#=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service=$app --action="start" --log_path="systemd"
+ynh_systemctl --service=$app --action="start" --log_path="systemd" --wait_until="Server up and running"
 
 #=================================================
 # END OF SCRIPT
