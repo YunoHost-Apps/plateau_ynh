@@ -1,0 +1,13 @@
+{
+  "protocol": "http",
+  "host": "127.0.0.1",
+  "desired_port": __PORT__,
+  "contentPath": "__DATA_DIR__",
+  "privateKeyPath": "",
+  "certificatePath": "",
+  "api": {
+    "enabled": false,
+    "allow_all_domains": false,
+    "domains_whitelist": ["127.0.0.1"]
+  }
+}

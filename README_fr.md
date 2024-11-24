@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Plateau pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/plateau)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Installer Plateau avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
@@ -24,7 +26,7 @@ Plateau aide les designers à organiser et à documenter des ateliers participat
 - Organisez les ateliers en conséquence, en documentant ce qui se passe au moyen de notes, de photos, d'enregistrements vidéo ou audio, au fur et à mesure du déroulement des ateliers.
 - Revisitez les matériaux capturés, enrichissez-les, archivez-les ou publiez-les.
 
-**Version incluse :** 2.0.0b~ynh3
+**Version incluse :** 2.0.0b~ynh4
 
 **Démo :** <https://plateau.latelier-des-chercheurs.fr>
 ## Documentations et ressources

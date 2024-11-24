@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Plateau para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/plateau.svg)](https://dash.yunohost.org/appci/app/plateau) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/plateau)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Instalar Plateau con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
@@ -25,7 +27,7 @@ Plateau helps designers organize and document participatory workshops.
 - Revisit the materials captured, enrich them, archive them or publish them.
 
 
-**Versión proporcionada:** 2.0.0b~ynh3
+**Versión proporcionada:** 2.0.0b~ynh4
 
 **Demo:** <https://plateau.latelier-des-chercheurs.fr>
 ## Documentación e recursos

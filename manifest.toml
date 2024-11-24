@@ -5,7 +5,7 @@ name = "Plateau"
 description.en = "Organize and document participatory workshops"
 description.fr = "Organiser et documenter des ateliers participatifs"
 
-version = "2.0.0b~ynh3"
+version = "2.0.0b~ynh4"
 
 maintainers = ["Guillaume Bouzige"]
 
@@ -16,7 +16,8 @@ demo = "https://plateau.latelier-des-chercheurs.fr"
 code = "https://github.com/l-atelier-des-chercheurs/PLATEAU"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
 ldap = false
@@ -29,27 +30,32 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    [install.path]
-    type = "path"
-    default = "/plateau"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/tags/v2.0.0.tar.gz"
-        sha256 = "8573599860b81a3d6a4f8ea2d6b2b4385d8a6104d27c3e8ceef7d922780d77ca"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/heads/develop-node.zip"
+        sha256 = "533ab9f5cceac2358ad03104ff3d8f8f24e2a7beb296192281b9ff1a3dd2681b"
+        
+        #url = "https://github.com/l-atelier-des-chercheurs/PLATEAU/archive/refs/tags/v2.0.0.tar.gz"
+        #sha256 = "8573599860b81a3d6a4f8ea2d6b2b4385d8a6104d27c3e8ceef7d922780d77ca"
+        #autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
     [resources.install_dir]
 
-    [resources.ports]
-
     [resources.data_dir]
 
     [resources.permissions]
     main.url = "/"
+    main.auth_header = false
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = [
+    "make"
+    ]
