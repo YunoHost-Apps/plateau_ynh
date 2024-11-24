@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Plateau YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/plateau)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Instalatu Plateau YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 

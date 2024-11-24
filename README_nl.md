@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Plateau voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/plateau)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Plateau met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 

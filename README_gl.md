@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Plateau para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/plateau)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Instalar Plateau con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 

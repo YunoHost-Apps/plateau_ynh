@@ -5,7 +5,9 @@
 
 # Plateau для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Состояние работы](https://apps.yunohost.org/badge/state/plateau)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Установите Plateau с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
