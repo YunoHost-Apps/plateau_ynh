@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Plateau untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Status kerja](https://apps.yunohost.org/badge/state/plateau)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Pasang Plateau dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 

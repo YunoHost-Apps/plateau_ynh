@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Plateau for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/plateau.svg)](https://ci-apps.yunohost.org/ci/apps/plateau/) ![Working status](https://ci-apps.yunohost.org/ci/badges/plateau.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/plateau.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/plateau)](https://ci-apps.yunohost.org/ci/apps/plateau/)
+![Working status](https://apps.yunohost.org/badge/state/plateau)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/plateau)
 
 [![Install Plateau with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plateau)
 
